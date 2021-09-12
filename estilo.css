@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+tr th {
+    padding: 5px 20px;
+}
+tr td {
+    padding: 5px 20px;
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background-color: rgb(242 242 242);
+}
+.conteudo{
+    text-align: -webkit-center;
+}
+.pagina {
+    text-align: center;
+}
+h1.title{
+    text-transform: uppercase;
+    color: #a79e9e;
+}
+.conteudo {
+    text-align: -webkit-center;
+    margin-bottom: 10px;
+}
+select {
+    margin-top: 5px;
+}
+.botoes button {
+    padding: 6px 15px;
+    text-transform: capitalize;
+}
+button.botao-calcular {
+    color: white;
+    background: teal;
+    cursor: pointer;
+    border: 2px solid teal;
+}
+button.botao-calcular:hover {
+    color: teal;
+    background: white;
+    cursor: pointer;
+    border: 2px solid teal;
+}
+button.botao-cancelar:hover {
+    color: white;
+    background: #cc6453;
+    cursor: pointer;
+    border: 2px solid #cc6453;
+}
+button.botao-cancelar {
+    color: #cc6453;
+    background: white;
+    cursor: pointer;
+    border: 2px solid #cc6453;
+}
